@@ -1,0 +1,136 @@
+import React from "react";
+import "@fontsource/poppins";
+import "./CrmHomepage.css";
+
+import SideBar from "./SideBar";
+
+const CrmHomepage = () => {
+  return (
+    <div>
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-md-2">
+            <SideBar />
+          </div>
+
+          <div className="col-md-10">
+            <br />
+
+            <div className="row">
+              <div className="col-md-12">
+                <div class="form-group">
+                  <h3>
+                    Report-Current L1 Support Ticket Status With Ageing Status
+                    Wise
+                  </h3>
+                </div>
+
+                <form>
+                  <div className="row">
+                    <div className="col-md-8">
+                      <div class="form-group">
+                        <br />
+                        <p>
+                          Show{" "}
+                          <select>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                            <option>11</option>
+                          </select>{" "}
+                          entries
+                        </p>
+                      </div>
+                    </div>
+                    <div className="col-md-4"><br/>
+                      <button>Search</button>
+                      <input type="text" class="form-control" id="source" />
+                    </div>
+                  </div>
+                </form>
+                <br/>
+
+                <table width="100%" striped bordered hover="sm">
+                  <tbody>
+                    <tr>
+                      <th> Parameters</th>
+                      <th>0-7 Days</th>
+                      <th> 8-15 Days</th>
+                      <th> 16-30 Days</th>
+                      <th>31-60 Days</th>
+                      <th>61-90 Days</th>
+                    </tr>
+                    <tr>
+                    <td>Assigned To KNE Team</td>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>--</td><td>--</td>
+                    </tr>
+
+                    <tr>
+                    <td>Assigned To L1 Team</td>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>--</td><td>--</td>
+                    <td>--</td>
+                    </tr>
+
+                    <tr>
+                    <td>Assigned To L2 Team</td>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>--</td><td>--</td>
+                    <td>--</td>
+                    </tr>
+                    <tr>
+                    <td>Reported</td>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>--</td>
+                    </tr>
+
+                 
+                  </tbody>
+                </table>
+
+                <form>
+                  <div className="row">
+                    <div className="col-md-8">
+                      <div class="form-group">
+                        <br />
+                        <label for="source">Showing 0 to 0 of 0 Entries</label>
+                      </div>
+                    </div>
+                    <div className="col-md-2">
+                      <div class="form-group">
+                        <br />
+                        <p>Previous</p>
+                      </div>
+                    </div>
+                    <div className="col-md-2">
+                      <div class="form-group">
+                        <br />
+                        <p>Next</p>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+export default CrmHomepage;

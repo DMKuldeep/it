@@ -1,0 +1,101 @@
+import React from "react";
+import "@fontsource/poppins";
+import "./CrmHomepage.css";
+
+import SideBar from "./SideBar";
+
+const CrmHomepage = () => {
+  return (
+    <div>
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-md-2">
+            <SideBar />
+          </div>
+
+          <div className="col-md-10">
+            <br />
+
+            <div className="row">
+              <div className="col-md-12">
+                <div class="form-group">
+                  <br />
+                  <br />
+                  <h3>Report-Multilingual Call Synopsis</h3>
+                </div>
+
+                <form>
+                  <div className="row">
+                    <div className="col-md-4">
+                      <div class="form-group">
+                        <br />
+                        <label for="source">Start Date</label>
+                        <input type="date" class="form-control" id="source" />
+                      </div>
+                    </div>
+                    <div className="col-md-4">
+                      <div class="form-group">
+                        <br />
+                        <label for="source">End Date</label>
+                        <input type="date" class="form-control" id="source" />
+                      </div>
+                    </div>
+
+                    <div className="col-md-4">
+                      <br />
+                      <br />
+                      <button>Submit</button>
+                    </div>
+                  </div>
+                </form>
+
+                <br />
+                <table width="100%" striped bordered hover="sm">
+                  <tbody>
+                    <tr>
+                      <th> S No</th>
+                      <th> Languages</th>
+                      <th> Date-Time</th>
+                      <th> Total Calls</th>
+                      <th> Grand Total</th>
+                    </tr>
+
+                    <tr>
+                      <td>1</td>
+                      <td>English</td>
+                      <td>
+                        <input type="text" />
+                      </td>
+                      <td>1000</td>
+                      <td>1011</td>
+                    </tr>
+
+                    <tr>
+                      <td>2</td>
+                      <td>English</td>
+                      <td>
+                        <input type="text" />
+                      </td>
+                      <td>1000</td>
+                      <td>1011</td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>English</td>
+                      <td>
+                        <input type="text" />
+                      </td>
+                      <td>1000</td>
+                      <td>1011</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+export default CrmHomepage;

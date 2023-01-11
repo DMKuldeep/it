@@ -1,0 +1,97 @@
+import React from "react";
+import "@fontsource/poppins";
+import "./CrmHomepage.css";
+
+import SideBar from "./SideBar";
+
+const CrmHomepage = () => {
+  return (
+    <div>
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-md-2">
+            <SideBar />
+          </div>
+
+          <div className="col-md-10">
+            <br />
+
+            <div className="row">
+              <div className="col-md-12">
+                <div><br/><br/>
+                  <h3>CRM Ageing Report</h3>
+                </div>
+                
+
+                <form>
+                  <div className="row">
+                    <div className="col-md-4">
+                      <div class="form-group">
+                        <br />
+                        <label for="source"  style={{color:"#002060"}}>Start Date</label>
+                        <input type="date" class="form-control" id="source" />
+                      </div>
+                    </div>
+                    <div className="col-md-4">
+                      <div class="form-group">
+                        <br />
+                        <label for="source"  style={{color:"#002060"}} >End Date</label>
+                        <input type="date" class="form-control" id="source" />
+                      </div>
+                    </div>
+
+                    <div className="col-md-4">
+                      <br />
+                      <br />
+                      <button>Submit</button>
+                    </div>
+                  </div>
+                </form>
+                <br />
+
+                <table width="100%" striped bordered hover="sm">
+                  <tbody>
+                    <tr>
+                      <th>Sr No</th>
+                      <th> Sources</th>
+                      <th> Date-Time</th>
+                      <th> Total Calls</th>
+                    </tr>
+
+                    <tr>
+                      <td>1</td>
+                      <td>Phone Number</td>
+                      <td>
+                        <input type="text" />
+                      </td>
+                      <td>10</td>
+                    </tr>
+
+                    <tr>
+                      <td>2</td>
+                      <td>Registerd Email ID</td>
+                      <td>
+                        <input type="text" />
+                      </td>
+                      <td>22</td>
+                    </tr>
+
+                    <tr>
+                      <td>3</td>
+                      <td>Registerd Email ID</td>
+                      <td>
+                        <input type="text" />
+                      </td>
+                      <td>24</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+export default CrmHomepage;

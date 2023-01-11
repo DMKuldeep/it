@@ -1,0 +1,58 @@
+import React from "react";
+import "@fontsource/poppins";
+import "./CrmHomepage.css";
+import Table from "react-bootstrap/Table";
+import SideBar from "./SideBar";
+
+const CrmHomepage = () => {
+  return (
+    <div>
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-md-2">
+            <SideBar />
+          </div>
+          <div className="col-md-10">
+            <br />
+            <form>
+              <div className="row">
+                <div className="col-md-4">
+                  <div class="form-group">
+                    <h3>Auto WebTicket Details</h3>
+                  </div>
+                </div>
+              </div>
+            </form>
+            <div className="col-md-10">
+              <br />
+              <Table width="100%"   striped bordered hover="sm">
+                <tbody>
+                  <tr>
+                    <th> Child Call#</th>
+                    <th> Call Date Time</th>
+                    <th> Description</th>
+                    <th> Source</th>
+                    <th> Phone/Email</th>
+                    <th> Issue Category</th>
+                    <th> Sub Category</th>
+                    <th> Issue</th>
+                    <th> Parent TCKT</th>
+                    <th> Status</th>
+                    <th> Sev</th>
+                    <th> Expected TAT</th>
+                    <th> Actual TAT</th>
+                  </tr>
+
+                  <tr>
+                    <td>#95</td>
+                  </tr>
+                </tbody>
+              </Table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+export default CrmHomepage;

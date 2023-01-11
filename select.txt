@@ -1,0 +1,208 @@
+                   <option >--None--</option>
+                          <option>Delayed in contract Fulfilment</option>
+                          <option >Issue forwarded to Concerned Department </option>
+                          <option >Seller-Product Not Approved (Outside TAT)</option>
+                          <option 
+  // >Service Provider-Invitation Not Receiving to Participate In BID/RA</option><option
+  //                                  >Unable to Transfer/Edit Hod Account</option><option 
+  //                                  >Ticket Resolved</option><option 
+  //                                  >Ticket Closure</option><option 
+  //                                  >Caution Money - Info required</option><option 
+  //                                  >Password Reset Process</option><option 
+  //                                  >Process for order cancellation</option><option 
+  //                                  >Wants To Know Seller Details</option><option
+  //                                  >Offer validity Extension</option><option 
+  //                                  >Seller-Incorrect information about product warranty/expiry/authorization</option>
+  //                                  <option 
+  //                                  >Seller-All ITR validation related Mail</option><option  
+  //                                  >Process to Change Verification Authority</option><option  
+  //                                  >Seller-Process to Deactivate/Activate Secondary User</option><option 
+  //                                  >Gem Availability Report process</option><option 
+  //                                  >Seller-Order Accepted but Not Visible In Portal</option><option 
+  //                                  >Seller-How to Upload Product</option><option 
+  //                                  >Difference Between Bid & RA</option><option 
+  //                                  >Nic/.gov domain ID Creation</option><option 
+  //                                  >Unable To Upload Documents</option><option 
+  //                                  >MSE No. Not Verified/Accepted</option><option 
+  //                                  > Seller-Query for Buyer Details</option><option 
+  //                                  >Unable To Place Order for Service</option><option 
+  //                                  >Unable To Transfer/Edit Account</option><option 
+  //                                  >Seller-Rejecting goods/service without valid reason</option><option 
+  //                                  >Seller-Unable to Edit Invoice</option><option 
+  //                                  >How To Create Sub User/Post?</option><option 
+  //                                  >Seller-Billing Address Not Visible</option><option 
+  //                                  >Temporary issue or something went wrong error 503</option><option 
+  //                                  >Seller-Unable to Accept the Order</option><option 
+  //                                  >OEM Dashboard Access</option><option value=34 
+  //                                  >Seller-Product Published but Not Shown In Market</option><option
+  //                                  >Change Constitution Name request mail</option><option 
+  //                                  >Seller-How to Edit The Price/Location/Stock/Lead time?</option><option 
+  //                                  >Service Provider-Order Cancellation Process</option><option 
+  //                                  >New HOD Unable to Login</option><option value=39 
+  //                                  >Buyer is Not Able to Login With User Id/Password</option><option 
+  //                                  >Buyer registration process on GeM</option><option 
+  //                                  >EMD Related Query</option><option 
+  //                                  >OTP</option><option 
+  //                                  >Incorrect Price Showing</option><option
+  //                                  >No Response from Seller/Service provider on Incident</option><option  
+  //                                  >Unable To Cancel Bid</option><option 
+  //                                  >How to Calculate Service Prices</option><option 
+  //                                  >Seller-Incorrect product specification &/or price information updated</option>
+  //                                  <option 
+  //                                  >Unable to create Bunch Bid</option><option 
+  //                                  >Re-push the bill</option><option 
+  //                                  >Price Negotiation for service Bid/RA</option><option  
+  //                                  >Key Person Not Validated</option><option 
+  //                                  >Aadhar Unsuccessful</option><option 
+  //                                  >Payment Process Related Query</option><option
+  //                                  >User Disabled Due to Payment Pending</option><option
+  //                                  >Service Provider-Delayed in payment post confirming/verifying logbook</option>
+  //                                  <option 
+  //                                  >T&C Related Query</option><option 
+  //                                  >Account Auto Logout Issue</option><option 
+  //                                  >E-Ticket-Create</option><option value=59 
+  //                                  >Unable To Update Financial Details</option><option 
+  //                                  >Unable To Select ITR Type</option
+  //                                  >How to Place Order for Services</option><option 
+  //                                  >How To Search Services on GeM?</option><option
+  //                                  >How to participate in Bid/RA</option><option 
+  //                                  >GeM Transaction Charges (Order acceptance charges)</option><option 
+  //                                  >Seller-Not Able to Login with User Id/Password</option><option
+  //                                  >GeM buyer Id Creation Process</option><option 
+  //                                  >Seller-Password reset link not received</option><option 
+  //                                  >Seller-How to Reset Password</option><option  
+  //                                  >Caution Money Template to be executed via script</option><option 
+  //                                  >Seller-Order Auto Cancel</option><option  
+  //                                  >Seller-Password Format/Not Accepting Password Issue</option><option
+  //                                  >No Response from user end</option><option  
+  //                                  >Seller-Unable to Generate Invoice</option><option  
+  //                                  >Seller-How to Raise Incident And Query regarding TAT</option><option 
+  //                                  >Unable To Generate the Logbook</option><option  
+  //                                  >Details Required - Call</option><option  
+  //                                  >Seller-Disabled Due to Non-Delivery</option><option  
+  //                                  >Email ID Already Exists</option><option  
+  //                                  >Severity_Creation S3 Severity 12 HRS</option><option  
+  //                                  >Unable to draft the bill</option><option  
+  //                                  >Unable To Update DIPP Details</option><option  
+  //                                  >Process to Search Product on the GeM Portal</option><option  
+  //                                  >Unable To Compare Product</option><option  
+  //                                  >New Brand/OEM Request</option><option  
+  //                                  >Buyer Payment pending Reminder</option><option  
+  //                                  >Proceed To Check Out Option Not Available</option><option  
+  //                                  >Reverse Auction (RA) Participation Query</option><option  
+  //                                  >Aadhaar Link/OTP Not Received</option><option  
+  //                                  >Closure of Tickets not responded by the User</option><option  
+  //                                  >How to Create Bunch Bid?</option><option  
+  //                                  >Severity_Creation S3 Severity 8HRS</option><option  
+  //                                  >User Not Contactable/Did not answer the call</option><option  
+  //                                  >Product Not Available on GeM</option><option  
+  //                                  >Buffering/Slowness Issue</option><option  
+  //                                  >Unable To Make Payment</option><option 
+  //                                  >Vendor Assessment Related Process</option><option 
+  //                                  >Request for Screenshots</option><option 
+  //                                  >Internal Error</option><option 
+  //                                  >Direct/L1 Direct Purchase Related Query</option><option  
+  //                                  >E-Case-Close-Customer-Call</option><option  
+  //                                  >Feedback alert for customer – Ticket</option><option  
+  //                                  >Service Provider-Wrong Price Published in The Market</option><option  
+  //                                  >Unable To Create Sub User</option><option  
+  //                                  >Seller-Order Cancellation Process</option><option  
+  //                                  >Seller-Unable to Reset Password</option><option  
+  //                                  >Request for Consent of Order Cancellation</option><option  
+  //                                  >CRAC Editing Process</option><option  
+  //                                  >Seller-Request for Addition/Modification in Specification</option><option  
+  //                                  >Unable To Find Bill</option><option  
+  //                                  >Seller-Reason for Rejection in Bid/RA</option><option  
+  //                                  >Seller-Specific concern against Buyer</option><option  
+  //                                  >Forgot User ID</option><option  
+  //                                  >PAC Buying Process Related</option><option  
+  //                                  >Service Rejected</option><option  
+  //                                  >Service approved</option><option  
+  //                                  >Buyer - Unable to Reset Password</option><option  
+  //                                  >Seller-New Category addition</option><option  
+  //                                  >Feedback & Suggestion</option><option  
+  //                                  >How to upload services</option><option  
+  //                                  >No Response from DCEO's on Incident</option><option  
+  //                                  >E-Mudra Registration</option><option 
+  //                                  >Reply to the ticket generated from popup</option>
+  //                                  <option 
+  //                                  >How To Create Bid/RA?</option><option  
+  //                                  >Service Provider-How to Upload Services</option><option  
+  //                                  >Who Will Be the Verifying Authority?</option><option  
+  //                                  >Seller-How to Participate in Bid/RA</option><option  
+  //                                  >Seller-Process to Create Sub User</option><option  
+  //                                  >DDO & PAO Code Mapping Request</option><option  
+  //                                  >E-Ticket-Close-Customer</option><option  
+  //                                  >Elaborate the Issue</option><option  
+  //                                  >Service Provider-How to Participate In Bid/RA</option><option  
+  //                                  >Buyer Password Format Not Accepting</option><option  
+  //                                  >DDO / PAO Not Available</option><option  
+  //                                  >PAN Data Mismatch</option><option  
+  //                                  >Vendor Assessment Related</option><option  
+  //                                  >Seller-Unable to Verify UAM No</option><option  
+  //                                  >Seller-Unable to Participate In BID/RA</option><option  
+  //                                  >Training Related Query</option><option  
+  //                                  >Seller-Product showing Out of Stock</option><option  
+  //                                  >Profile Updation Process</option><option  
+  //                                  >Unable To Generate CRAC</option><option  
+  //                                  >Seller-Brand Not Approved (Within Tat)</option><option  
+  //                                  >Unable To Place Order for Bid/RA</option><option  
+  //                                  >How to Add New Organization/Department?</option><option  
+  //                                  >GeM Buyer creation process for HOD</option><option  
+  //                                  >User Disabled post transfer</option><option  
+  //                                  >Seller-How to Edit Invoice</option><option  
+  //                                  >GeM Buyer Id Not Received - Post 48Hrs</option><option  
+  //                                  >ITR-6 validation process</option><option  
+  //                                  >Seller-Registration Related Process: From PAN</option><option  
+  //                                  >Tickets not responded by User (Reminder 1)</option><option  
+  //                                  >Tickets not responded by User (Reminder 2)</option><option  
+  //                                  >Tickets not responded by User (Reminder 3)</option><option  
+  //                                  >Tickets not responded by User (Resolved Template)</option><option  
+  //                                  >How To Draft the Bill?</option>
+  //                                  <option 
+  //                                  >Process of registration as secondary User</option><option 
+  //                                  >Service Provider-Service Published but Not Shown in the Market</option><option  
+  //                                  >Buyer-How to Reset Password?</option><option  
+  //                                  >Seller-E-Sign Related Issue</option><option  
+  //                                  >Seller-Unable to Update Billing Address</option><option  
+  //                                  >CIN No. Not Accepted/Verified</option><option  
+  //                                  >How To Raise/Close/Escalate Incident and Query related to TAT</option><option  
+  //                                  >How To Generate CRAC?</option><option  
+  //                                  >Inspection Agency not available</option><option  
+  //                                  >Unable To Add the Product in the Cart</option><option  
+  //                                  >Unable to Select Relevant Mode of Payment</option><option  
+  //                                  >Un-Registered Brand Undertaking</option><option  
+  //                                  >Seller-Payment Process Related Query</option><option  
+  //                                  >Caution Money Refund - In case of excess payment done</option><option  
+  //                                  >Case Closure on user confirmation</option><option  
+  //                                  >No Response/No Resolution from Incident Team</option><option  
+  //                                  >Seller-Tampering/Damaging the consignment</option><option  
+  //                                  >CGDA Code Mapping</option><option  
+  //                                  >HOD Account Transfer/Deletion</option><option  
+  //                                  >Seller-Order cancellation post acceptance</option><option  
+  //                                  >How to Manage Re-Sellers</option><option  
+  //                                  >How to Select Relevant Mode of Payment</option><option 
+  //                                  >Price Not Visible/Incorrect Amount While Finalizing the Bid/RA</option><option  
+  //                                  >Caution money manual</option><option value=181 
+  //                                  >User Id/Mobile Number/Email Id Already Exists</option><option 
+  //                                  >Service Provider-Service Category Not Available</option><option  
+  //                                  >Seller-Consignee Not Accepting the Delivery</option><option
+  //                                  >Incorrect/Inaccurate information & documents provided in BID/RA</option><option value=185 
+  //                                  >Resolution mail</option><option 
+  //                                  >Seller-Account Deletion</option><option 
+  //                                  >Unable To Update Profile</option><option 
+  //                                  > Dupe Closed</option><option 
+  //                                  >Seller-EMD/EPBG Related Query</option><option 
+  //                                  >Seller-Unable to Upload Product</option><option 
+  //                                  >Sub Users Account Transfer/Delete/Edit/Addition</option><option
+  //                                  >Financial &/or Technical Evaluation</option><option 
+  //                                  >Account Status</option><option 
+  //                                  >Seller-Delayed in payment post CRAC generation</option><option 
+  //                                  >Seller-Issue In EMD/EPBG Amount</option><option
+  //                                  >Seller-Product not visible in Bid/RA</option><option 
+  //                                  >Something Went Wrong</option><option 
+  //                                  >All ITR mail</option>
+  //                                  <option 
+  //                                  >Service Provider-Unable to Participate In Bid/RA</option>         
+                        
+  //                                  </select>

@@ -1,0 +1,1204 @@
+import React from "react";
+import "@fontsource/poppins";
+import "./CrmHomepage.css";
+import Table from "react-bootstrap/Table";
+import SideBar from "./SideBar";
+
+const CrmHomepage = () => {
+  return (
+    <div>
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-md-2">
+            <SideBar />
+          </div>
+          <div className="col-md-10">
+            <div className="margin-top_area">
+              <form>
+                <div className="row">
+                  <div className="col-md-4">
+                    <div class="form-group">
+                      <label for="source">Source</label>
+                      <div>
+                        <select
+                          border="1px solid black"
+                          class="form-select form-control"
+                        >
+                          <option selected="selected">Phone Number </option>
+                          <option>Registered eMail-Id </option>
+                          <option>GeM User Id </option>
+                          <option>Seller ID </option>
+                          <option>Web Ticket </option>
+                          <option>Chat </option>
+                          <option>WhatsApp Handle </option>
+                          <option>Letter </option>
+                          <option>Walk-in </option>
+                          <option>Facebook Handle </option>
+                          <option>LinkedIn Handle </option>
+                          <option>Twitter Handle </option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-4">
+                    <div class="form-group">
+                      <label for="source">Mobile No or ID</label>
+                      <input
+                        type="text"
+                        placeholder="9191919191"
+                        class="form-control"
+                        id="source"
+                      />
+                    </div>
+                  </div>
+
+                  <div className="col-md-4">
+                    <button type="button" class="btn">
+                      Search
+                    </button>
+                  </div>
+                </div>
+              </form>
+              <hr
+                style={{
+                  background: "DodgerBlue",
+                  color: "DodgerBlue",
+                  height: "3px",
+                }}
+              />
+              <div className="">
+                <form>
+                  <div className="row">
+                    <div className="col-md-4">
+                      <div class="form-group">
+                        <label for="from">Unique ID</label>&nbsp;
+                        <input
+                          type="text"
+                          placeholder="Phone Number"
+                          class="form-control"
+                          id="source"
+                        />
+                      </div>
+                    </div>
+                    <div className="col-md-4">
+                      <div class="form-group">
+                        <label for="from" required>
+                          Registered Mobile No
+                        </label>
+                        &nbsp;
+                        <input
+                          type="text"
+                          placeholder="Phone Number"
+                          class="form-control"
+                          id="source"
+                        />
+                      </div>
+                    </div>
+
+                    <div className="col-md-4">
+                      <label for="from" required>
+                        Person Name
+                      </label>
+                      &nbsp;
+                      <input
+                        type="text"
+                        placeholder="Phone Number"
+                        class="form-control"
+                        id="source"
+                      />
+                    </div>
+                  </div>
+                </form>
+                <br />
+                <form>
+                  <div className="row">
+                    <div className="col-md-4">
+                      <div class="form-group">
+                        <label for="from" required>
+                          Registered Email ID
+                        </label>
+                        &nbsp;
+                        <input
+                          type="text"
+                          placeholder="Registered Email ID"
+                          class="form-control"
+                          id="source"
+                        />
+                      </div>
+                    </div>
+                    <div className="col-md-4">
+                      <div class="form-group">
+                        <label for="from" required>
+                          Organization Name
+                        </label>
+                        &nbsp;
+                        <input
+                          type="text"
+                          placeholder="INC"
+                          class="form-control"
+                          id="source"
+                        />
+                      </div>
+                    </div>
+
+                    <div className="col-md-4">
+                      <label for="from">Alternate Phone</label>&nbsp;
+                      <input
+                        type="text"
+                        placeholder="9191919191"
+                        class="form-control"
+                        id="source"
+                      />
+                    </div>
+                  </div>
+                </form>
+                <br />
+                <form>
+                  <div className="row">
+                    <div className="col-md-4">
+                      <div class="form-group">
+                        <label for="from" required>
+                          User Profile
+                        </label>
+                        &nbsp;
+                        <br />
+                        <select border="1px solid black" class="form-select">
+                          <option>--Select--</option>
+                          <option>Buyer </option>
+                          <option>Seller </option>
+                          <option>Service Provider </option>
+                          <option>Consignee </option>
+                          <option>DDO/PAO </option>
+                          <option>HOD </option>
+                          <option>Not Related to GeM </option>
+                          <option>Not Related To Railways </option>
+                        </select>
+                      </div>
+                    </div>
+                    <div className="col-md-4">
+                      <div class="form-group">
+                        <button type="button" class="btn">
+                          Update
+                        </button>
+                        &nbsp;
+                      </div>
+                    </div>
+                  </div>
+                </form>
+                <br />
+                <h1>Recent Ticket Details</h1>
+                <Table striped bordered hover="sm">
+                  <tbody>
+                    <tr style={{ color: "#002060" }}>
+                      <th> #</th>
+                      <th> Call Date Time</th>
+                      <th> Description</th>
+                      <th> Source</th>
+                      <th> Phone/Email</th>
+                      <th> Issue Category</th>
+                      <th> Sub Category</th>
+                      <th> Issue</th>
+                      <th> Parent TCKT#</th>
+                      <th> Status</th>
+                      <th> Sev</th>
+                      <th> Expected TAT</th>
+                      <th> Actual TAT</th>
+                    </tr>
+
+                    <tr>
+                      <td>#95</td>
+                      <td>
+                        2021-05-30 <br />
+                        23:11:59
+                      </td>
+                      <td>test</td>
+                      <td>Phone Number</td>
+                      <td>8004539892</td>
+                      <td>Request</td>
+                      <td>Buyer Registration</td>
+                      <td>
+                        Unable to create <br />
+                        ID & Password
+                      </td>
+                      <td>TCKT#95</td>
+                      <td>Assigned to L1 Team</td>
+                      <td>S3</td>
+                      <td>
+                        2021-05-30 <br />
+                        23:11:59
+                      </td>
+                      <td>
+                        2021-05-30 <br />
+                        23:11:59
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>#95</td>
+                      <td>
+                        2021-05-30 <br />
+                        23:11:59
+                      </td>
+                      <td>Bill payment issue registered a ticket</td>
+                      <td>Phone Number</td>
+                      <td>8004539892</td>
+                      <td>Request</td>
+                      <td>Order</td>
+                      <td>
+                        Bill Payment Failed <br />
+                      </td>
+                      <td>TCKT#95</td>
+                      <td>Assigned to KNE Team</td>
+                      <td>S3</td>
+                      <td>
+                        2021-05-30 <br />
+                        23:11:59
+                      </td>
+                      <td>
+                        2021-05-30 <br />
+                        23:11:59
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td>#95</td>
+                      <td>
+                        2021-05-30 <br />
+                        23:11:59
+                      </td>
+                      <td>
+                        To achieve high performance, TRUNCATE TABLE bypasses the
+                        DML method of deleting data. Thus, it does not cause ON
+                        DELETE triggers to fire, it cannot be performed for
+                        InnoDB tables with parent-child foreign key
+                        relationships, and it cannot be rolled back like a DML
+                        operation.
+                      </td>
+                      <td>Phone Number</td>
+                      <td>8004539892</td>
+                      <td>Query</td>
+                      <td>Buyer Login</td>
+                      <td>
+                        How To Reset The Password? <br />
+                      </td>
+                      <td>TCKT#95</td>
+                      <td>Assigned to L0 Team</td>
+                      <td>S3</td>
+                      <td>
+                        2021-05-30 <br />
+                        23:11:59
+                      </td>
+                      <td>
+                        2021-05-30 <br />
+                        23:11:59
+                      </td>
+                    </tr>
+                  </tbody>
+                </Table>
+
+                <br />
+                <h1>Past Call/Ticket History</h1>
+                <Table striped bordered hover="sm">
+                  <tbody>
+                    <tr>
+                      <th> #</th>
+                      <th> Call Date Time</th>
+                      <th> Description</th>
+                      <th> Source</th>
+                      <th> Phone/Email</th>
+                      <th> Issue Category</th>
+                      <th> Sub Category</th>
+                      <th> Issue</th>
+                      <th> Parent TCKT#</th>
+                      <th> Status</th>
+                      <th> Sev</th>
+                      <th> Expected TAT</th>
+                      <th> Actual TAT</th>
+                    </tr>
+
+                    <tr>
+                      <td>#95</td>
+                      <td>
+                        2021-05-30 <br />
+                        23:11:59
+                      </td>
+                      <td>Bill payment issue registered a ticket</td>
+                      <td>Phone Number</td>
+                      <td>8004539892</td>
+                      <td>Request</td>
+                      <td>Order</td>
+                      <td>
+                        Bill Payment Failed <br />
+                      </td>
+                      <td>TCKT#95</td>
+                      <td>Assigned to KNE Team</td>
+                      <td>S3</td>
+                      <td>
+                        2021-05-30 <br />
+                        23:11:59
+                      </td>
+                      <td>
+                        2021-05-30 <br />
+                        23:11:59
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>#95</td>
+                      <td>
+                        2021-05-30 <br />
+                        23:11:59
+                      </td>
+                      <td>test</td>
+                      <td>Phone Number</td>
+                      <td>8004539892</td>
+                      <td>Query</td>
+                      <td>Buyer Registration</td>
+                      <td>
+                        Unable To Create User Id/Password <br />
+                      </td>
+                      <td>TCKT#95</td>
+                      <td>Assigned to L1 Team</td>
+                      <td>S3</td>
+                      <td>
+                        2021-05-30 <br />
+                        23:11:59
+                      </td>
+                      <td>
+                        2021-05-30 <br />
+                        23:11:59
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>#95</td>
+                      <td>
+                        2021-05-30 <br />
+                        23:11:59
+                      </td>
+                      <td>
+                        DML operation On Fri, Sep 24, 2021 at 4:41 PM GeM
+                        Helpdesk wrote: Dear Sir/Ma'am, Please follow following
+                        steps to reset your password on GeM portal: 1. Kindly
+                        visit https://gem.gov.in/{" "}
+                      </td>
+                      <td>Registered eMail-Id</td>
+                      <td>raj30jan@gmail.com</td>
+                      <td>Query</td>
+                      <td>Order</td>
+                      <td>
+                        How To Place <br />
+                        Order for Services
+                      </td>
+                      <td>TCKT#95</td>
+                      <td>Assigned to L0 Team</td>
+                      <td>S3</td>
+                      <td>
+                        2021-05-30 <br />
+                        23:11:59
+                      </td>
+                      <td>
+                        2021-05-30 <br />
+                        23:11:59
+                      </td>
+                    </tr>
+                  </tbody>
+                </Table>
+
+                <br />
+                <h1>New Call/Ticket Details</h1>
+                <div className="container-fluid">
+                  <div className="row perfor">
+                    <div className="col-md-4">
+                      <div class="form-group">
+                        <label for="from">Call Type</label>
+                        <div>
+                          <select
+                            border="1px solid black"
+                            class="form-select form-control"
+                          >
+                            <option>Inbound</option>
+                            <option>Outbound </option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-md-4">
+                      <div class="form-group">
+                        <label for="from">Parent Ticket#</label>
+                        <input type="text" class="form-control" id="source" />
+                      </div>
+                      <br />
+                    </div>
+                    <div className="col-md-4">
+                      <div>
+                        <label for="from">Issue Category</label>
+                        <div>
+                          <select
+                            border="1px solid black"
+                            class="form-select form-control"
+                          >
+                            <option value="">--Select--</option>
+                            <option value="Query">Query</option>
+                            <option value="Incident">Incident</option>
+                            <option value="Feedback">Feedback</option>
+                            <option value="Complaint">Complaint</option>
+                            <option value="Request">Service Request</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="container-fluid">
+                  <div className="row perfor">
+                    <div className="col-md-4">
+                      <div class="form-group">
+                        <label for="from">Sub Category</label>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <div>
+                          <select
+                            border="1px solid black"
+                            class="form-select form-control"
+                          >
+                            <option defaultValue="--Select--">
+                              --Select--
+                            </option>
+                            <option>Order</option>
+                            <option>Buyer BID/RA</option>
+                            <option>Buyer Registration</option>
+                            <option>Feedback and Suggestion</option>
+                            <option>Buyer login</option>
+                            <option>Procurement</option>
+                            <option>Service Related</option>
+                            <option>Technical Issues</option>
+                            <option>Buyer Incident</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-md-4">
+                      <div>
+                        <label for="from">Issue</label> &nbsp;&nbsp;&nbsp;&nbsp;
+                        <div>
+                          <select
+                            border="1px solid black"
+                            class="form-select form-control"
+                          >
+                            <option defaultValue="--Select--">
+                              --Select--
+                            </option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-md-4">
+                      <div class="form-group">
+                        <label for="from">VOC</label> &nbsp;&nbsp;&nbsp;&nbsp;
+                        <div>
+                          <select
+                            border="1px solid black"
+                            class="form-select form-control"
+                          >
+                            <option defaultValue="--Select--">
+                              --Select--
+                            </option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="container-fluid">
+                  <div className="row perfor">
+                    <div className="col-md-4">
+                      <div class="form-group">
+                        <br />
+                        <label for="from">Description</label>{" "}
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <br />
+                        <textarea style={{ width: "100%" }}></textarea>
+                      </div>
+                    </div>
+                    <div className="col-md-4">
+                      <div class="form-group">
+                        <br />
+                        <label for="from">Resolution</label>{" "}
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <br />
+                        <textarea style={{ width: "100%" }}></textarea>
+                      </div>
+                    </div>
+                    <div className="col-md-4">
+                      <div class="form-group">
+                        <br />
+                        <label for="from">Suggested Resolution</label>{" "}
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <br />
+                        <textarea style={{ width: "100%" }}></textarea>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="container-fluid">
+                  <div className="row perfor">
+                    <div className="col-md-4">
+                      <div class="form-group">
+                        <br />
+                        <label for="from">
+                          Expected TAT <br /> <br />{" "}
+                          <select>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                            <option>13</option>
+                            <option>14</option>
+                            <option>15</option>
+                            <option>16</option>
+                            <option>17</option>
+                            <option>18</option>
+
+                            <option>19</option>
+                            <option>20</option>
+                            <option>21</option>
+                            <option>22</option>
+                            <option>23</option>
+                            <option>24</option>
+                          </select>{" "}
+                          &nbsp;&nbsp;&nbsp;&nbsp; Hours
+                          &nbsp;&nbsp;&nbsp;&nbsp;
+                          <select>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                            <option>13</option>
+                            <option>14</option>
+                            <option>15</option>
+                            <option>16</option>
+                            <option>17</option>
+                            <option>18</option>
+
+                            <option>19</option>
+                            <option>20</option>
+                            <option>21</option>
+                            <option>22</option>
+                            <option>23</option>
+                            <option>24</option>
+                          </select>
+                          &nbsp;&nbsp;&nbsp;&nbsp;Minutes
+                        </label>
+                      </div>
+                    </div>
+                    <div className="col-md-4">
+                      <div class="form-group">
+                        <br />
+                        <label for="from">Severity</label>{" "}
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <div>
+                          <select
+                            border="1px solid black"
+                            class="form-select form-control"
+                          >
+                            <option>S3</option>
+                            <option>S2</option>
+                            <option>S1</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-md-4">
+                      <div class="form-group">
+                        <br />
+                        <label for="from">Criticality</label>{" "}
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <div>
+                          <select
+                            border="1px solid black"
+                            class="form-select form-control"
+                          >
+                            <option defaultValue="--Select--">
+                              --Select--
+                            </option>
+                            <option>C3</option>
+                            <option>C2</option>
+                            <option>C1</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="container-fluid">
+                  <div className="row perfor">
+                    <div className="col-md-4">
+                      <div class="form-group">
+                        <br />
+                        <label for="from">Ticket Status</label>{" "}
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <div>
+                          <select
+                            border="1px solid black"
+                            class="form-select form-control"
+                          >
+                            <option>--Select--</option>
+                            <option>Reported</option>
+                            <option>Assigned to L0 Team</option>
+                            <option>Assigned to L1 Team</option>
+                            <option>Assigned to L2 Team</option>
+                            <option>Assigned to KNE Team</option>
+                            <option>Assigned to 3rd Party</option>
+                            <option>Assigned to SPV</option>
+                            <option>Assigned to QCI</option>
+                            <option>Assigned to Development Team</option>
+                            <option>In Process</option>
+                            <option>Escalated</option>
+                            <option>Information Requested</option>
+                            <option>Requested Information Responded</option>
+                            <option>Waiting for Production Approval</option>
+                            <option>SPV Approval</option>
+                            <option>Resolved</option>
+                            <option>Closed</option>
+                            <option>Re-Opened</option>
+                            <option>Dupe Closed</option>
+                            <option>Force Closure</option>
+                            <option>Call Dropped</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-md-4">
+                      <div class="form-group">
+                        <br />
+                        <label for="from" required>
+                          Assign/Transfer To{" "}
+                        </label>{" "}
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <div>
+                          <select
+                            border="1px solid black"
+                            class="form-select form-control"
+                          >
+                            <option defaultValue="--Select--">
+                              --Select--
+                            </option>
+                            <option value="">--Select--</option>
+                            <option value="raj">raj</option>
+                            <option value="Ramesh">Ramesh</option>
+                            <option value="naveen">naveen</option>
+                            <option value="RM Group">RM Group</option>
+                            <option value="vijay">vijay</option>
+                            <option value="AutoEmailAgent">
+                              AutoEmailAgent
+                            </option>
+                            <option value="Rajesh">Rajesh</option>
+                            <option value="AutoWebAgent">AutoWebAgent</option>
+                            <option value="bhutani12">bhutani12</option>
+                            <option value="skd">skd</option>
+                            <option value="abc">abc</option>
+                            <option value="abcd">abcd</option>
+                            <option value="abcde">abcde</option>
+                            <option value="bcde">bcde</option>
+                            <option value="bc1de">bc1de</option>
+                            <option value="bc21de">bc21de</option>
+                            <option value="bc021de">bc021de</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-md-4">
+                      <div class="form-group">
+                        <br />
+                        <label for="from">User Group</label>
+                        <input type="text" class="form-control" id="source" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="container-fluid">
+                  <div className="row perfor">
+                    <div className="col-md-4">
+                      <div class="form-group">
+                        <br />
+                        <label for="from">CC</label>{" "}
+                        <div>
+                          <input
+                            type="text"
+                            placeholder="Send Email as CC"
+                            class="form-control"
+                            id="source"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-md-4">
+                      <div class="form-group">
+                        <br />
+                        <label for="from">BCC</label>
+
+                        <div>
+                          <input
+                            type="text"
+                            placeholder="Send Email as CC"
+                            class="form-control"
+                            id="source"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-md-4">
+                      <div class="form-group">
+                        <br />
+                        <label for="from">Mail Template</label>{" "}
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <div>
+                          <select
+                            border="1px solid black"
+                            class="form-select form-control"
+                          >
+                            <option>--None--</option>
+                            <option>Delayed in contract Fulfilment</option>
+                            <option>
+                              Issue forwarded to Concerned Department{" "}
+                            </option>
+                            <option>
+                              Seller-Product Not Approved (Outside TAT)
+                            </option>
+                            <option>
+                              Service Provider-Invitation Not Receiving to
+                              Participate In BID/RA
+                            </option>
+                            <option>Unable to Transfer/Edit Hod Account</option>
+                            <option>Ticket Resolved</option>
+                            <option>Ticket Closure</option>
+                            <option>Caution Money - Info required</option>
+                            <option>Password Reset Process</option>
+                            <option>Process for order cancellation</option>
+                            <option>Wants To Know Seller Details</option>
+                            <option>Offer validity Extension</option>
+                            <option>
+                              Seller-Incorrect information about product
+                              warranty/expiry/authorization
+                            </option>
+                            <option>
+                              Seller-All ITR validation related Mail
+                            </option>
+                            <option>
+                              Process to Change Verification Authority
+                            </option>
+                            <option>
+                              Seller-Process to Deactivate/Activate Secondary
+                              User
+                            </option>
+                            <option>Gem Availability Report process</option>
+                            <option>
+                              Seller-Order Accepted but Not Visible In Portal
+                            </option>
+                            <option>Seller-How to Upload Product</option>
+                            <option>Difference Between Bid & RA</option>
+                            <option>Nic/.gov domain ID Creation</option>
+                            <option>Unable To Upload Documents</option>
+                            <option>MSE No. Not Verified/Accepted</option>
+                            <option> Seller-Query for Buyer Details</option>
+                            <option>Unable To Place Order for Service</option>
+                            <option>Unable To Transfer/Edit Account</option>
+                            <option>
+                              Seller-Rejecting goods/service without valid
+                              reason
+                            </option>
+                            <option>Seller-Unable to Edit Invoice</option>
+                            <option>How To Create Sub User/Post?</option>
+                            <option>Seller-Billing Address Not Visible</option>
+                            <option>
+                              Temporary issue or something went wrong error 503
+                            </option>
+                            <option>Seller-Unable to Accept the Order</option>
+                            <option>OEM Dashboard Access</option>
+                            <option>
+                              Seller-Product Published but Not Shown In Market
+                            </option>
+                            <option>
+                              Change Constitution Name request mail
+                            </option>
+                            <option>
+                              Seller-How to Edit The Price/Location/Stock/Lead
+                              time?
+                            </option>
+                            <option>
+                              Service Provider-Order Cancellation Process
+                            </option>
+                            <option>New HOD Unable to Login</option>
+                            <option>
+                              Buyer is Not Able to Login With User Id/Password
+                            </option>
+                            <option>Buyer registration process on GeM</option>
+                            <option>EMD Related Query</option>
+                            <option>OTP</option>
+                            <option>Incorrect Price Showing</option>
+                            <option>
+                              No Response from Seller/Service provider on
+                              Incident
+                            </option>
+                            <option>Unable To Cancel Bid</option>
+                            <option>How to Calculate Service Prices</option>
+                            <option>
+                              Seller-Incorrect product specification &/or price
+                              information updated
+                            </option>
+                            <option>Unable to create Bunch Bid</option>
+                            <option>Re-push the bill</option>
+                            <option>
+                              Price Negotiation for service Bid/RA
+                            </option>
+                            <option>Key Person Not Validated</option>
+                            <option>Aadhar Unsuccessful</option>
+                            <option>Payment Process Related Query</option>
+                            <option>
+                              User Disabled Due to Payment Pending
+                            </option>
+                            <option>
+                              Service Provider-Delayed in payment post
+                              confirming/verifying logbook
+                            </option>
+                            <option>T&C Related Query</option>
+                            <option>Account Auto Logout Issue</option>
+                            <option>E-Ticket-Create</option>
+                            <option>Unable To Update Financial Details</option>
+                            <option>Unable To Select ITR Type</option>
+                            <option>How to Place Order for Services</option>
+                            <option>How To Search Services on GeM?</option>
+                            <option>How to participate in Bid/RA</option>
+                            <option>
+                              GeM Transaction Charges (Order acceptance charges)
+                            </option>
+                            <option>
+                              Seller-Not Able to Login with User Id/Password
+                            </option>
+                            <option>GeM buyer Id Creation Process</option>
+                            <option>
+                              Seller-Password reset link not received
+                            </option>
+                            <option>Seller-How to Reset Password</option>
+                            <option>
+                              Caution Money Template to be executed via script
+                            </option>
+                            <option>Seller-Order Auto Cancel</option>
+                            <option>
+                              Seller-Password Format/Not Accepting Password
+                              Issue
+                            </option>
+                            <option>No Response from user end</option>
+                            <option>Seller-Unable to Generate Invoice</option>
+                            <option>
+                              Seller-How to Raise Incident And Query regarding
+                              TAT
+                            </option>
+                            <option>Unable To Generate the Logbook</option>
+                            <option>Details Required - Call</option>
+                            <option>Seller-Disabled Due to Non-Delivery</option>
+                            <option>Email ID Already Exists</option>
+                            <option>
+                              Severity_Creation S3 Severity 12 HRS
+                            </option>
+                            <option>Unable to draft the bill</option>
+                            <option>Unable To Update DIPP Details</option>
+                            <option>
+                              Process to Search Product on the GeM Portal
+                            </option>
+                            <option>Unable To Compare Product</option>
+                            <option>New Brand/OEM Request</option>
+                            <option>Buyer Payment pending Reminder</option>
+                            <option>
+                              Proceed To Check Out Option Not Available
+                            </option>
+                            <option>
+                              Reverse Auction (RA) Participation Query
+                            </option>
+                            <option>Aadhaar Link/OTP Not Received</option>
+                            <option>
+                              Closure of Tickets not responded by the User
+                            </option>
+                            <option>How to Create Bunch Bid?</option>
+                            <option>Severity_Creation S3 Severity 8HRS</option>
+                            <option>
+                              User Not Contactable/Did not answer the call
+                            </option>
+                            <option>Product Not Available on GeM</option>
+                            <option>Buffering/Slowness Issue</option>
+                            <option>Unable To Make Payment</option>
+                            <option>Vendor Assessment Related Process</option>
+                            <option>Request for Screenshots</option>
+                            <option>Internal Error</option>
+                            <option>
+                              Direct/L1 Direct Purchase Related Query
+                            </option>
+                            <option>E-Case-Close-Customer-Call</option>
+                            <option>
+                              Feedback alert for customer – Ticket
+                            </option>
+                            <option>
+                              Service Provider-Wrong Price Published in The
+                              Market
+                            </option>
+                            <option>Unable To Create Sub User</option>
+                            <option>Seller-Order Cancellation Process</option>
+                            <option>Seller-Unable to Reset Password</option>
+                            <option>
+                              Request for Consent of Order Cancellation
+                            </option>
+                            <option>CRAC Editing Process</option>
+                            <option>
+                              Seller-Request for Addition/Modification in
+                              Specification
+                            </option>
+                            <option>Unable To Find Bill</option>
+                            <option>
+                              Seller-Reason for Rejection in Bid/RA
+                            </option>
+                            <option>
+                              Seller-Specific concern against Buyer
+                            </option>
+                            <option>Forgot User ID</option>
+                            <option>PAC Buying Process Related</option>
+                            <option>Service Rejected</option>
+                            <option>Service approved</option>
+                            <option>Buyer - Unable to Reset Password</option>
+                            <option>Seller-New Category addition</option>
+                            <option>Feedback & Suggestion</option>
+                            <option>How to upload services</option>
+                            <option>No Response from DCEO's on Incident</option>
+                            <option>E-Mudra Registration</option>
+                            <option>
+                              Reply to the ticket generated from popup
+                            </option>
+                            <option>How To Create Bid/RA?</option>
+                            <option>
+                              Service Provider-How to Upload Services
+                            </option>
+                            <option>
+                              Who Will Be the Verifying Authority?
+                            </option>
+                            <option>Seller-How to Participate in Bid/RA</option>
+                            <option>Seller-Process to Create Sub User</option>
+                            <option>DDO & PAO Code Mapping Request</option>
+                            <option>E-Ticket-Close-Customer</option>
+                            <option>Elaborate the Issue</option>
+                            <option>
+                              Service Provider-How to Participate In Bid/RA
+                            </option>
+                            <option>Buyer Password Format Not Accepting</option>
+                            <option>DDO / PAO Not Available</option>
+                            <option>PAN Data Mismatch</option>
+                            <option>Vendor Assessment Related</option>
+                            <option>Seller-Unable to Verify UAM No</option>
+                            <option>
+                              Seller-Unable to Participate In BID/RA
+                            </option>
+                            <option>Training Related Query</option>
+                            <option>Seller-Product showing Out of Stock</option>
+                            <option>Profile Updation Process</option>
+                            <option>Unable To Generate CRAC</option>
+                            <option>
+                              Seller-Brand Not Approved (Within Tat)
+                            </option>
+                            <option>Unable To Place Order for Bid/RA</option>
+                            <option>
+                              How to Add New Organization/Department?
+                            </option>
+                            <option>GeM Buyer creation process for HOD</option>
+                            <option>User Disabled post transfer</option>
+                            <option>Seller-How to Edit Invoice</option>
+                            <option>
+                              GeM Buyer Id Not Received - Post 48Hrs
+                            </option>
+                            <option>ITR-6 validation process</option>
+                            <option>
+                              Seller-Registration Related Process: From PAN
+                            </option>
+                            <option>
+                              Tickets not responded by User (Reminder 1)
+                            </option>
+                            <option>
+                              Tickets not responded by User (Reminder 2)
+                            </option>
+                            <option>
+                              Tickets not responded by User (Reminder 3)
+                            </option>
+                            <option>
+                              Tickets not responded by User (Resolved Template)
+                            </option>
+                            <option>How To Draft the Bill?</option>
+                            <option>
+                              Process of registration as secondary User
+                            </option>
+                            <option>
+                              Service Provider-Service Published but Not Shown
+                              in the Market
+                            </option>
+                            <option>Buyer-How to Reset Password?</option>
+                            <option>Seller-E-Sign Related Issue</option>
+                            <option>
+                              Seller-Unable to Update Billing Address
+                            </option>
+                            <option>CIN No. Not Accepted/Verified</option>
+                            <option>
+                              How To Raise/Close/Escalate Incident and Query
+                              related to TAT
+                            </option>
+                            <option>How To Generate CRAC?</option>
+                            <option>Inspection Agency not available</option>
+                            <option>
+                              Unable To Add the Product in the Cart
+                            </option>
+                            <option>
+                              Unable to Select Relevant Mode of Payment
+                            </option>
+                            <option>Un-Registered Brand Undertaking</option>
+                            <option>
+                              Seller-Payment Process Related Query
+                            </option>
+                            <option>
+                              Caution Money Refund - In case of excess payment
+                              done
+                            </option>
+                            <option>Case Closure on user confirmation</option>
+                            <option>
+                              No Response/No Resolution from Incident Team
+                            </option>
+                            <option>
+                              Seller-Tampering/Damaging the consignment
+                            </option>
+                            <option>CGDA Code Mapping</option>
+                            <option>HOD Account Transfer/Deletion</option>
+                            <option>
+                              Seller-Order cancellation post acceptance
+                            </option>
+                            <option>How to Manage Re-Sellers</option>
+                            <option>
+                              How to Select Relevant Mode of Payment
+                            </option>
+                            <option>
+                              Price Not Visible/Incorrect Amount While
+                              Finalizing the Bid/RA
+                            </option>
+                            <option>Caution money manual</option>
+                            <option>
+                              User Id/Mobile Number/Email Id Already Exists
+                            </option>
+                            <option>
+                              Service Provider-Service Category Not Available
+                            </option>
+                            <option>
+                              Seller-Consignee Not Accepting the Delivery
+                            </option>
+                            <option>
+                              Incorrect/Inaccurate information & documents
+                              provided in BID/RA
+                            </option>
+                            <option>Resolution mail</option>
+                            <option>Seller-Account Deletion</option>
+                            <option>Unable To Update Profile</option>
+                            <option> Dupe Closed</option>
+                            <option>Seller-EMD/EPBG Related Query</option>
+                            <option>Seller-Unable to Upload Product</option>
+                            <option>
+                              Sub Users Account Transfer/Delete/Edit/Addition
+                            </option>
+                            <option>Financial &/or Technical Evaluation</option>
+                            <option>Account Status</option>
+                            <option>
+                              Seller-Delayed in payment post CRAC generation
+                            </option>
+                            <option>Seller-Issue In EMD/EPBG Amount</option>
+                            <option>
+                              Seller-Product not visible in Bid/RA
+                            </option>
+                            <option>Something Went Wrong</option>
+                            <option>All ITR mail</option>
+                            <option>
+                              Service Provider-Unable to Participate In Bid/RA
+                            </option>{" "}
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="container-fluid">
+                  <div className="row perfor">
+                    <div className="col-md-4">
+                      <div class="form-group">
+                        <br />
+                        <label for="from">Mail Body</label> <br />
+                        <textarea rows="1" style={{ width: "100%" }}></textarea>
+                      </div>
+                    </div>
+                    <div className="col-md-4">
+                      <div class="form-group">
+                        <br />
+                        <label for="from">Date & Time</label>
+                        <input
+                          type="datetime-local"
+                          placeholder="Date & Time"
+                          class="form-control"
+                          id="source"
+                        />
+                      </div>
+                    </div>
+                    <div className="col-md-4">
+                      <div class="form-group">
+                        <br />
+                        <label for="from">Attachments</label>{" "}
+                        <input type="file" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <form>
+                  <div className="container-fluid">
+                    <div className="row perfor">
+                      <div className="col-md-4">
+                        <div class="form-group">
+                          <br />
+                          <label for="from">Remarks</label>
+                          <textarea style={{ width: "100%" }}></textarea>
+                        </div>
+                      </div>
+                      <br />
+                      <div className="col-md-4">
+                        <br />
+                        <br />
+                        <div class="form-group">
+                          <button type="button" class="btn">
+                            Send
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+export default CrmHomepage;

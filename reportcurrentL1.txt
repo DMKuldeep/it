@@ -1,0 +1,116 @@
+import React from "react";
+import "@fontsource/poppins";
+import "./CrmHomepage.css";
+
+import SideBar from "./SideBar";
+
+const CrmHomepage = () => {
+  return (
+    <div>
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-md-2">
+            <SideBar />
+          </div>
+
+          <div className="col-md-10">
+            <br />
+
+            <div className="row">
+              <div className="col-md-12">
+                <div class="form-group">
+                  <h3>Report- Current L1 Support Ticket Status With Ageing</h3>
+                </div>
+
+                <form>
+                  <div className="row">
+                    <div className="col-md-4">
+                      <div class="form-group">
+                        <br />
+                        <label for="source">Start Date</label>
+                        <input type="date" class="form-control" id="source" />
+                      </div>
+                    </div>
+                    <div className="col-md-4">
+                      <div class="form-group">
+                        <br />
+                        <label for="source">End Date</label>
+                        <input type="date" class="form-control" id="source" />
+                      </div>
+                    </div>
+
+                    <div className="col-md-4">
+                      <br />
+                      <br />
+                      <button>Submit</button>
+                    </div>
+                  </div>
+                </form>
+                <br />
+                <form>
+                <div className="row">
+                  <div className="col-md-8">
+                    <div class="form-group">
+                      <br />
+                      <p>
+                        Show{" "}
+                        <select>
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                          <option>6</option>
+                          <option>7</option>
+                          <option>8</option>
+                          <option>9</option>
+                          <option>10</option>
+                          <option>11</option>
+                        </select>{" "}
+                        entries
+                      </p>
+                    </div>
+                  </div>
+                  <div className="col-md-4"><br/>
+                    <button>Search</button>
+                    <input type="text" class="form-control" id="source" />
+                  </div>
+                  
+                </div>
+              </form>
+
+
+              <table width="100%" striped bordered hover="sm">
+              <tbody>
+                <tr>
+                  <th> Issue Type(Module)</th>
+                  <th> Date(Weekly)</th>
+                  <th> Count</th>
+                  <th> Grand Total</th>
+          
+                </tr>
+                  <tr>
+                  <td></td>
+                  <td>02 June 2022</td>
+                  <td>5564</td>
+                  <td>5564</td>
+                  </tr>
+                  <tr>
+                  <td>Not Related To Gem</td>
+                  <td>13 Oct 2022</td>
+                  <td>1</td>
+                  <td>555</td>
+                  </tr>
+             
+              </tbody>
+            </table>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+export default CrmHomepage;

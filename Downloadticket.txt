@@ -1,0 +1,101 @@
+import React from "react";
+import "@fontsource/poppins";
+import Table from "react-bootstrap/Table";
+import "./CrmHomepage.css";
+
+import SideBar from "./SideBar";
+
+const CrmHomepage = () => {
+  return (
+    <div>
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-md-2">
+            <SideBar />
+          </div>
+
+          <div className="col-md-10">
+            <br />
+            <br />
+            <br />
+            <div className="row">
+              <div className="col-md-12">
+                <div class="form-group">
+                  <h3>Download Tickets</h3>
+                </div>
+
+                <form>
+                  <div className="row">
+                    <div className="col-md-3">
+                      <div class="form-group">
+                        <br />
+                        <label for="source">Poratl Unique ID 1</label>
+                        <input type="text" class="form-control" id="source" />
+                      </div>
+                    </div>
+                    <div className="col-md-3">
+                      <div class="form-group">
+                        <br />
+                        <label for="source">Poratl Unique ID 2</label>
+                        <input type="text" class="form-control" id="source" />
+                      </div>
+                    </div>
+
+                    <div className="col-md-3">
+                      <div class="form-group"></div>
+                      <br />
+
+                      <label for="source">Poratl Unique ID 3</label>
+                      <input type="text" class="form-control" id="source" />
+                    </div>
+                    <div className="col-md-3">
+                      <div class="form-group">
+                      <br /> <br />
+                      <button type="button" class="btn">Submit</button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+
+                <br />
+
+                <Table striped bordered hover="sm">
+                  
+                    <tr style={{ color: "#002060" }}>
+                      <th> Ticket ID</th>
+                      <th> Description</th>
+                      <th> Created Date</th>
+                      <th> Customer Name</th>
+                      <th> Email</th>
+                      <th>  TAT</th>
+                      <th> Revise TAT</th>
+                      <th>  Owner</th>
+                      <th> Master Name</th>
+                      <th> Campaign Name</th>
+                      <th> Created By</th>
+                    </tr>
+
+                    <tr>
+                    <td>2506</td>
+                    <td>Having problem in order</td>
+                    <td>10/01/2023</td>
+                    <td>Arjun</td>
+                    <td>abc123@gmail.com</td>
+                    <td>21/01/2023</td>
+                    <td>17/01/2023</td>
+                    <td>Shiv</td>
+                    <td>Jerry</td>
+                    <td>Portal !</td>
+                    <td>Team A</td>
+                    </tr>
+                  
+                </Table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+export default CrmHomepage;

@@ -1,0 +1,231 @@
+import React from "react";
+import "@fontsource/poppins";
+import "./CrmHomepage.css";
+
+import SideBar from "./SideBar";
+
+const CrmHomepage = () => {
+  return (
+    <div>
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-md-2">
+            <SideBar />
+          </div>
+
+          <div className="col-md-10">
+            <br />
+
+            <div className="row">
+              <div className="col-md-12">
+                <div class="form-group">
+                  <h3>Report-Tickets Flow Weekly</h3>
+                </div>
+                <br />
+
+                <form>
+                  <div className="row">
+                    <div className="col-md-4">
+                      <div class="form-group">
+                        <br />
+                        <label for="source">Start Date</label>
+                        <input type="date" class="form-control" id="source" />
+                      </div>
+                    </div>
+                    <div className="col-md-4">
+                      <div class="form-group">
+                        <br />
+                        <label for="source">End Date</label>
+                        <input type="date" class="form-control" id="source" />
+                      </div>
+                    </div>
+
+                    <div className="col-md-4">
+                      <br />
+                      <br />
+                      <button>Submit</button>
+                    </div>
+                  </div>
+                </form>
+                <br />
+
+                <table width="100%" striped bordered hover="sm">
+                  <tbody>
+                    <tr>
+                      <th>Over All</th>
+                      <th> Calls</th>
+                      <th>Emails </th>
+                      <th> Chat</th>
+                      <th> Walk In</th>
+                    </tr>
+
+                    <tr>
+                      <td>Tickets K&E</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                    </tr>
+                    <tr>
+                      <td>Tickets In Progress K&E</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                    </tr>
+
+                    <tr>
+                      <td>Tickets Pending From Last Week - K&E</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                    </tr>
+
+                    <tr>
+                      <td>Tickets Transfer To - L1</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                    </tr>
+
+                    <tr>
+                      <td>Tickets Transfer To QCI</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                    </tr>
+                    <tr>
+                      <td>Tickets Transfer To Prod Approval</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <br />
+                <p>Report- K&E Weekly</p>
+
+                <table width="100%" striped bordered hover="sm">
+                  <tbody>
+                    <tr>
+                      <th>OverAll</th>
+                      <th> Calls</th>
+                      <th>Emails </th>
+                      <th> Chat</th>
+                      <th> Walk In</th>
+                    </tr>
+
+                    <tr>
+                      <td>Total Tickets</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                    </tr>
+                    <tr>
+                      <td>Tickets L0</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                    </tr>
+
+                    <tr>
+                      <td>Tickets Overall Closure From Current Week - L0</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                    </tr>
+
+                    <tr>
+                      <td>Tickets Overall Closure From Previous Week - L0</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                    </tr>
+
+                    <tr>
+                      <td>Tickets Overall Closure From- L0</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                    </tr>
+                    <tr>
+                      <td>Tickets Pending From Last Week -L0</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                    </tr>
+                    <tr>
+                      <td>Tickets In Progress-L0</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <br/>
+
+                <p>Report-L1 Filteration K&E</p>
+
+                <table width="100%" striped bordered hover="sm">
+                  <tbody>
+                    <tr>
+                      <th>OverAll</th>
+                      <th> Calls</th>
+                      <th>Emails </th>
+                      <th> Chat</th>
+                      <th> Walk In</th>
+                    </tr>
+
+                    <tr>
+                      <td>Total Tickets - K&E</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                    </tr>
+                    <tr>
+                      <td>Tickets In Progress K&E</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                    </tr>
+
+                    <tr>
+                      <td>Tickets Transfered L1</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                    </tr>
+
+                    <tr>
+                      <td>Tickets Transfered to QCI</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+export default CrmHomepage;

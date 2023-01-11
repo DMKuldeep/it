@@ -1,0 +1,93 @@
+import React from "react";
+import "@fontsource/poppins";
+import "./CrmHomepage.css";
+
+import SideBar from "./SideBar";
+
+const CrmHomepage = () => {
+  return (
+    <div>
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-md-2">
+            <SideBar />
+          </div>
+          <div className="col-md-10">
+            <br />
+
+            <div className="row">
+              <div className="col-md-12">
+                <div class="form-group">
+                <br/><br/>
+                  <h3>Knowledge Base</h3>
+                </div>
+              </div>
+
+              <div className="col-md-4">
+                <br />
+                <input
+                type="text"
+                size="30"
+                placeholder="inform users to co-ordinate with FSSAI"
+              />
+                
+              </div>
+              <div className="col-md-7">
+                <br />
+                <button>Search KB</button>
+              </div>
+              <div className="col-md-12">
+                <br />
+                <p>
+                  <b>Issues Linked To Selected KB Article </b>
+                </p>
+              </div>
+              <div className="col-md-3">
+                <br />
+                <p>
+                  <b>Sub Category</b>
+                </p>
+              </div>
+              <div className="col-md-3">
+                <br />
+                <p>
+                  <b>Issue</b>
+                </p>
+              </div>
+              <div className="col-md-3">
+                <br />
+                <p>
+                  <b>VOC</b>
+                </p>
+              </div>
+
+              <div className="col-md-12">
+                <table>
+                  <tbody>
+                    <tr>
+                      <td className="col-md-3"> Suggested Resolution</td>
+
+                      <textarea
+                        rows="5"
+                        cols="60"
+                        name="text"
+                        placeholder="...type your resolution here"
+                      ></textarea>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div className="col-md-12">
+                <br />
+
+                <button>Save</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+export default CrmHomepage;
